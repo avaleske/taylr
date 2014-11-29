@@ -2,8 +2,8 @@
   "name": "Taylr",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Replaces the tumblr logo with taylr.",
-  "homepage_url": "http://seekingclosures.com",
+  "description": "Replaces the Tumblr logo with \"taylr\", because we all know Taylor Swift rules Tumblr.",
+  "homepage_url": "https://github.com/avaleske/taylr",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -11,8 +11,7 @@
   },
   "default_locale": "en",
   "permissions": [
-    "tabs",
-    "https://www.tumblr.com/dashboard/*"
+    "https://*.tumblr.com/*"
   ],
   "content_scripts": [
     {
