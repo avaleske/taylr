@@ -2,8 +2,8 @@
   "name": "Taylr",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "Replaces the tumblr logo with taylr.",
+  "homepage_url": "http://seekingclosures.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -31,5 +31,8 @@
         "src/inject/inject.js"
       ]
     }
+  ],
+  "web_accessible_resources": [
+  "images/*.png"
   ]
 }
