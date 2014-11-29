@@ -1,5 +1,6 @@
 {
   "name": "Taylr",
+  "short_name": "Taylr",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "Replaces the Tumblr logo with taylr, because we all know Taylor Swift rules Tumblr. (I made a blank space, then wrote her name.)",
@@ -16,7 +17,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.tumblr.com/dashboard/*"
+        "https://www.tumblr.com/dashboard/*",
+        "https://www.tumblr.com/*"
       ],
       "css": [
         "src/inject/inject_dashboard.css"
@@ -24,7 +26,8 @@
     },
     {
       "matches": [
-        "https://www.tumblr.com/login"
+        "https://www.tumblr.com/login",
+        "https://www.tumblr.com/"
       ],
       "css": [
         "src/inject/inject_login.css"
