@@ -20,15 +20,15 @@
         "https://www.tumblr.com/dashboard/*"
       ],
       "css": [
-        "src/inject/inject.css"
+        "src/inject/inject_dashboard.css"
       ]
     },
     {
       "matches": [
-        "https://www.tumblr.com/dashboard/*"
+        "https://www.tumblr.com/login"
       ],
-      "js": [
-        "src/inject/inject.js"
+      "css": [
+        "src/inject/inject_login.css"
       ]
     }
   ],

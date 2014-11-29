@@ -1,0 +1,8 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+.logo .logo_anchor {
+background-image:  url('chrome-extension://__MSG_@@extension_id__/images/logo_taylr.png') !important;
+background-size: auto 50px !important;
+background-position: 50% 50% !important;
+}
